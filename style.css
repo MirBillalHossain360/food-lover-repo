@@ -1,0 +1,96 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.orange-color{
+    color: orange;
+}
+.tomato-color{
+    color: tomato;
+}
+.flexibli-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, green, tomato);
+    color:white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.fist-banner{
+    background-image: url(1st-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second-banner{
+    background-image: url(2nd-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.food-area{
+    background-image: url(3rd-banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.flex-container{
+    display: flex;
+    padding: 10px;
+}
+.flex-container img {
+    width: 100%;
+    border-radius: 10%;
+}
+.food-item{
+    width: 33%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow:10px 10px 40px grey;
+}
+#the-classic-burger{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+   
+}
+#Nana-magic-soup{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#Finest-steak{
+    border-left: 5px solid;
+    border-image: linear-gradient(green, Yellow);
+    border-image-slice: 1;  
+}
+
+
+
+footer h1 {
+    text-align: center;
+}
+footer h3 {
+    text-align: center;
+}
